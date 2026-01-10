@@ -1,0 +1,8 @@
+{
+  "name": "@ds/tailwind-config",
+  "version": "0.1.0",
+  "main": "tailwind.preset.js",
+  "dependencies": {
+    "@ds/tokens": "workspace:*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@ds/tokens",
+  "exports": {
+    ".": "./src/index.ts",
+    "./color": "./src/color.ts",
+    "./spacing": "./src/spacing.ts",
+    "./radius": "./src/radius.ts",
+    "./typography": "./src/typography.ts"
+  }
+}

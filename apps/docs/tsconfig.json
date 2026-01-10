@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ds/ui": ["../../packages/ui/src"],
+      "@ds/ui/*": ["../../packages/ui/src/*"]
+    }
+  }
+}
