@@ -8,7 +8,7 @@ import { brand } from './brand'
 export const colors = {
   // Neutral
   text: {
-    ...neutral.text,
+    text: neutral.text,
 
     // semantic text colors
     success: brand.success.text,

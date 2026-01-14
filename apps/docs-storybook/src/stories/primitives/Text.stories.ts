@@ -37,10 +37,31 @@ export const Sizes: Story = {
           Heading 1
         </Text>
 
-        <p class="text-text-primary">Text</p>
         <button class="bg-primary-background hover:bg-primary-backgroundHover">
           Primary
         </button>
+
+        <Text>Default text</Text>
+
+        <Text color="success">
+          Success message
+        </Text>
+
+        <Text color="warning">
+          Warning message
+        </Text>
+
+        <Text color="error">
+          Error message
+        </Text>
+
+        <Text size="h1" color="primary">
+          Heading Primary
+        </Text>
+
+        <Text decoration="underline" color="success">
+          Underlined success text
+        </Text>
       </div>
     `,
   }),

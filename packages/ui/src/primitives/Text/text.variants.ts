@@ -15,8 +15,12 @@ export const textDecorationClasses = {
   lineThrough: 'line-through',
 } as const
 
-// export const textColorClasses = {
-//   default: 'text-text-primary',
-//   muted: 'text-text-secondary',
-//   inverse: 'text-text-inverse',
-// } as const
+export const textColorClasses = {
+  default: 'text-text-primary',
+  muted: 'text-text-secondary',
+  inverse: 'text-text-inverse',
+
+  success: 'text-text-success',
+  warning: 'text-text-warning',
+  error: 'text-text-error',
+} as const

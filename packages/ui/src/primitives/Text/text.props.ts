@@ -8,8 +8,12 @@ export type TextSize =
   | 'h4'
   | 'h5'
 
+export type TextColor =
+  | 'success'
+  | 'warning'
+  | 'error'
+
 export type TextDecoration = 'none' | 'underline' | 'lineThrough'
-export type TextColor = 'default' | 'muted' | 'inverse'
 
 export interface TextProps {
   as?: keyof HTMLElementTagNameMap

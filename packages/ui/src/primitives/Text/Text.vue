@@ -3,20 +3,22 @@ import { computed, useAttrs } from 'vue'
 import type { TextProps } from './text.props'
 import {
   textSizeClasses,
+  textColorClasses,
   textDecorationClasses,
 } from './text.variants'
 
 const props = withDefaults(defineProps<TextProps>(), {
   as: 'p',
   size: 'base',
+  color: 'success',
   decoration: 'none',
-  color: 'default',
 })
 
 const attrs = useAttrs()
 
 const classes = computed(() => [
   textSizeClasses[props.size],
+  textColorClasses[props.color],
   textDecorationClasses[props.decoration],
 ])
 </script>

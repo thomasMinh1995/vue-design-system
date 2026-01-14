@@ -16,6 +16,7 @@ export const brand = {
   },
 
   success: {
+    scale: green,
     background: green[1],
     backgroundHover: green[2],
     border: green[3],
@@ -25,6 +26,7 @@ export const brand = {
   },
 
   warning: {
+    scale: orange,
     background: orange[1],
     backgroundHover: orange[2],
     border: orange[3],
@@ -34,6 +36,7 @@ export const brand = {
   },
 
   error: {
+    scale: red,
     background: red[1],
     backgroundHover: red[2],
     border: red[3],
