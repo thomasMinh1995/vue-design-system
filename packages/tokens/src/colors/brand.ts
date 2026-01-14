@@ -1,4 +1,4 @@
-import { blue } from './base'
+import { green, red, orange, blue } from './base'
 
 /**
  * Brand colors
@@ -7,28 +7,38 @@ import { blue } from './base'
 
 export const brand = {
   primary: {
-    light: {
-      background: blue[1],
-      backgroundHover: blue[2],
+    background: blue[1],
+    backgroundHover: blue[2],
+    border: blue[3],
+    borderHover: blue[4],
+    text: blue[6],
+    textHover: blue[7],
+  },
 
-      border: blue[3],
-      borderHover: blue[4],
+  success: {
+    background: green[1],
+    backgroundHover: green[2],
+    border: green[3],
+    borderHover: green[4],
+    text: green[6],
+    textHover: green[7],
+  },
 
-      text: blue[6],
-      textHover: blue[7],
-      textActive: blue[8],
-    },
+  warning: {
+    background: orange[1],
+    backgroundHover: orange[2],
+    border: orange[3],
+    borderHover: orange[4],
+    text: orange[6],
+    textHover: orange[7],
+  },
 
-    dark: {
-      background: blue[8],
-      backgroundHover: blue[7],
-
-      border: blue[6],
-      borderHover: blue[5],
-
-      text: blue[3],
-      textHover: blue[2],
-      textActive: blue[1],
-    },
+  error: {
+    background: red[1],
+    backgroundHover: red[2],
+    border: red[3],
+    borderHover: red[4],
+    text: red[6],
+    textHover: red[7],
   },
 } as const

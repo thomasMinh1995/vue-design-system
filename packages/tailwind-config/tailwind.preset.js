@@ -49,6 +49,9 @@ export default {
         fill: colors.fill,
 
         primary: colors.primary,
+        // success: colors.success,
+        // warning: colors.warning,
+        // error: colors.error,
     }
   },
 }
