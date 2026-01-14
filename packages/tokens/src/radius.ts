@@ -1,5 +1,6 @@
 export const radius = {
-  sm: '4px',
-  md: '8px',
-  lg: '12px'
-}
+  borderRadius: '6px',
+  borderRadiusLG: '8px',
+  borderRadiusSM: '4px',
+  borderRadiusXS: '2px',
+} as const

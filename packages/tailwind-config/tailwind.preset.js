@@ -1,4 +1,5 @@
-import { colors, typography } from '@ds/tokens'
+import { colors, spacing, typography } from '@ds/tokens'
+import { radius } from '@ds/tokens/radius'
 
 export default {
   theme: {
@@ -40,6 +41,9 @@ export default {
           { lineHeight: typography.h5.lineHeight },
         ],
       },
+
+      spacing,
+      borderRadius: radius
     },
     colors: {
         text: colors.text,
@@ -53,5 +57,6 @@ export default {
         // warning: colors.warning,
         // error: colors.error,
     }
+
   },
 }
