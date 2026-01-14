@@ -14,25 +14,42 @@ export const Sizes: Story = {
     components: { Text },
     template: `
       <div class="space-y-2">
-        <Text size="xs">XS</Text>
-        <Text size="sm">SM</Text>
-        <Text size="md">MD</Text>
-        <Text size="lg">LG</Text>
-        <Text size="xl">XL</Text>
-      </div>
-    `,
-  }),
-}
+        <p class="text-base">Base text</p>
+        <p class="text-sm">Small text</p>
+        <p class="text-lg">Large text</p>
 
-export const Truncate: Story = {
-  render: () => ({
-    components: { Text },
-    template: `
-      <div class="w-40">
-        <Text truncate>
-          This is a very long text that will truncate
+        <h1 class="text-h1">Heading 1</h1>
+        <h2 class="text-h2">Heading 2</h2>
+        <h3 class="text-h3">Heading 3</h3>
+
+
+        <Text size="base">Base text</Text>
+
+        <Text size="sm" decoration="underline">
+          Underlined small text
+        </Text>
+
+        <Text size="lg" decoration="lineThrough" color="muted">
+          Disabled text
+        </Text>
+
+        <Text as="h1" size="h1">
+          Heading 1
         </Text>
       </div>
     `,
   }),
 }
+
+// export const Truncate: Story = {
+//   render: () => ({
+//     components: { Text },
+//     template: `
+//       <div class="w-40">
+//         <Text truncate>
+//           This is a very long text that will truncate
+//         </Text>
+//       </div>
+//     `,
+//   }),
+// }

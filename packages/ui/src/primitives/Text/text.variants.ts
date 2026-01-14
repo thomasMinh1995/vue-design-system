@@ -1,19 +1,22 @@
 export const textSizeClasses = {
-  xs: 'text-xs',
   sm: 'text-sm',
-  md: 'text-base',
+  base: 'text-base',
   lg: 'text-lg',
-  xl: 'text-xl',
-}
+  h1: 'text-h1',
+  h2: 'text-h2',
+  h3: 'text-h3',
+  h4: 'text-h4',
+  h5: 'text-h5',
+} as const
 
-export const textWeightClasses = {
-  regular: 'font-normal',
-  medium: 'font-medium',
-  bold: 'font-bold',
-}
+export const textDecorationClasses = {
+  none: 'no-underline',
+  underline: 'underline',
+  lineThrough: 'line-through',
+} as const
 
-export const textColorClasses = {
-  default: 'text-gray-900',
-  muted: 'text-gray-500',
-  danger: 'text-red-600',
-}
+// export const textColorClasses = {
+//   default: 'text-text-primary',
+//   muted: 'text-text-secondary',
+//   inverse: 'text-text-inverse',
+// } as const

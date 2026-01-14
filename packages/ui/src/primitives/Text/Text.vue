@@ -3,14 +3,13 @@ import { computed, useAttrs } from 'vue'
 import type { TextProps } from './text.props'
 import {
   textSizeClasses,
-  textWeightClasses,
-  textColorClasses,
+  textDecorationClasses,
 } from './text.variants'
 
 const props = withDefaults(defineProps<TextProps>(), {
   as: 'p',
-  size: 'md',
-  weight: 'regular',
+  size: 'base',
+  decoration: 'none',
   color: 'default',
 })
 
@@ -18,13 +17,12 @@ const attrs = useAttrs()
 
 const classes = computed(() => [
   textSizeClasses[props.size],
-  textWeightClasses[props.weight],
-  textColorClasses[props.color],
+  textDecorationClasses[props.decoration],
 ])
 </script>
 
 <template>
-  <component :is="props.as" :class="classes" v-bind="attrs">
+  <component :is="as" :class="classes" v-bind="attrs">
     <slot />
   </component>
 </template>

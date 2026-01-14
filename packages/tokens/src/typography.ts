@@ -1,21 +1,45 @@
-// packages/tokens/src/typography.ts
+// typography tokens
+export const typography = {
+  // Body
+  sm: {
+    fontSize: '12px',
+    lineHeight: '20px',
+  },
+  base: {
+    fontSize: '14px',
+    lineHeight: '22px',
+  },
+  lg: {
+    fontSize: '16px',
+    lineHeight: '24px',
+  },
 
-export const fontSize = {
-  xs: ['12px', '16px'],
-  sm: ['14px', '20px'],
-  md: ['16px', '24px'],
-  lg: ['18px', '28px'],
-  xl: ['20px', '32px'],
-}
-
-export const fontWeight = {
-  regular: 400,
-  medium: 500,
-  bold: 700,
+  // Headings
+  h1: {
+    fontSize: '38px',
+    lineHeight: '46px',
+  },
+  h2: {
+    fontSize: '30px',
+    lineHeight: '38px',
+  },
+  h3: {
+    fontSize: '24px',
+    lineHeight: '32px',
+  },
+  h4: {
+    fontSize: '20px',
+    lineHeight: '28px',
+  },
+  h5: {
+    fontSize: '16px',
+    lineHeight: '24px',
+  },
 } as const
 
-export const lineHeight = {
-  tight: '1.25',
-  normal: '1.5',
-  relaxed: '1.75',
+// text-decoration
+export const textDecoration = {
+  none: 'none',
+  underline: 'underline',
+  lineThrough: 'line-through',
 } as const
