@@ -1,4 +1,4 @@
-import { typography } from '@ds/tokens'
+import { colors, typography } from '@ds/tokens'
 
 export default {
   theme: {
@@ -41,5 +41,14 @@ export default {
         ],
       },
     },
+    colors: {
+        text: colors.text,
+        icon: colors.icon,
+        background: colors.background,
+        border: colors.border,
+        fill: colors.fill,
+
+        primary: colors.primary,
+    }
   },
 }

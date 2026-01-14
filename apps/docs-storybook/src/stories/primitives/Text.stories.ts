@@ -36,6 +36,11 @@ export const Sizes: Story = {
         <Text as="h1" size="h1">
           Heading 1
         </Text>
+
+        <p class="text-text-primary">Text</p>
+        <button class="bg-primary-background hover:bg-primary-backgroundHover">
+          Primary
+        </button>
       </div>
     `,
   }),
