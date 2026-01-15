@@ -1,9 +1,14 @@
 {
   "name": "@ds/tokens",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "exports": {
     ".": "./src/index.ts",
-    "./color": "./src/color.ts",
+
+    "./colors": "./src/colors/index.ts",
     "./spacing": "./src/spacing.ts",
+    "./size": "./src/size.ts",
     "./radius": "./src/radius.ts",
     "./typography": "./src/typography.ts"
   }
