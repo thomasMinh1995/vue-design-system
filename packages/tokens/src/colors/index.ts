@@ -6,22 +6,31 @@ import { brand } from './brand'
  * Tailwind + components consume THIS
  */
 export const colors = {
-  // Neutral
   text: {
-    text: neutral.text,
+    primary: neutral.text,
+    secondary: neutral.text.secondary,
+    tertiary: neutral.text.tertiary,
+    disabled: neutral.text.disabled,
 
-    // semantic text colors
     success: brand.success.text,
     warning: brand.warning.text,
     error: brand.error.text,
   },
 
-  icon: neutral.icon,
-  background: neutral.background,
-  border: neutral.border,
-  fill: neutral.fill,
+  background: {
+    success: brand.success.background,
+    warning: brand.warning.background,
+    error: brand.error.background,
+  },
 
-  // Brand (for components like Button, Alert, etc.)
+  border: {
+    default: neutral.border,
+    success: brand.success.background,
+    warning: brand.warning.background,
+    error: brand.error.background,
+  },
+
+  // brand shortcut
   primary: brand.primary,
   success: brand.success,
   warning: brand.warning,

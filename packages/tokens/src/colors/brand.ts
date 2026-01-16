@@ -3,6 +3,7 @@ import { green, red, orange, blue } from './base'
 /**
  * Brand colors
  * Semantic usage mapped from base palettes
+ * used by components (Button, Tag...)
  */
 
 export const brand = {

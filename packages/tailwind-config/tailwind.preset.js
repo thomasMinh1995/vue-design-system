@@ -43,9 +43,9 @@ export default {
       },
 
       spacing,
-      borderRadius: radius
-    },
-    colors: {
+      borderRadius: radius,
+
+      colors: {
         text: colors.text,
         icon: colors.icon,
         background: colors.background,
@@ -53,10 +53,10 @@ export default {
         fill: colors.fill,
 
         primary: colors.primary,
-        // success: colors.success,
-        // warning: colors.warning,
-        // error: colors.error,
-    }
-
+        success: colors.success,
+        warning: colors.warning,
+        error: colors.error,
+      }
+    },
   },
 }

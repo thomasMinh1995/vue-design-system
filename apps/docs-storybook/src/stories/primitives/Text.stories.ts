@@ -62,6 +62,23 @@ export const Sizes: Story = {
         <Text decoration="underline" color="success">
           Underlined success text
         </Text>
+
+        <p class="text-text-primary">Primary text</p>
+        <p class="text-text-success">Success text</p>
+        <p class="text-text-warning">Warning text</p>
+        <p class="text-text-error">Error text</p>
+
+        <div class="bg-bg-container">
+          Card content
+        </div>
+
+        <div class="bg-bg-success text-text-success">
+          Success banner
+        </div>
+
+        <div class="border border-border-default">
+          Box
+        </div>
       </div>
     `,
   }),
